@@ -1,0 +1,26 @@
+PS G:\My Drive\School\01_Fall2024\CS210\WK03> py '.\Assignement03_isSorted_&_bubble_sort.py'
+
+Testing "isSorted" Function
+
+x is not sorted.                        Testing: is x sorted? False
+y is sorted in ascending order.         Testing: is y sorted? (True, 'ascending')
+z is sorted in descending order.        Testing: is z sorted? (True, 'descending')
+
+------------------------------------------------------
+
+Testing "bubble_sort" Function
+
+Unsorted starting array:
+ [100, 65, 11, 7, 8, 8, 8, 5, 3, 18, 3, 5, 1, 2, 34, 76, 3, 3, 98]
+
+After bubble_sort, ascending:
+ [1, 2, 3, 3, 3, 3, 5, 5, 7, 8, 8, 8, 11, 18, 34, 65, 76, 98, 100]
+Compared to Python sorting:
+ [1, 2, 3, 3, 3, 3, 5, 5, 7, 8, 8, 8, 11, 18, 34, 65, 76, 98, 100]
+
+After bubble_sort, descending:
+ [100, 98, 76, 65, 34, 18, 11, 8, 8, 8, 7, 5, 5, 3, 3, 3, 3, 2, 1]
+Compared to Python reversed array:
+ [100, 98, 76, 65, 34, 18, 11, 8, 8, 8, 7, 5, 5, 3, 3, 3, 3, 2, 1]
+
+PS G:\My Drive\School\01_Fall2024\CS210\WK03>

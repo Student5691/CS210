@@ -1,0 +1,19 @@
+PS G:\My Drive\School\01_Fall2024\CS210\WK01> ls
+
+
+    Directory: G:\My Drive\School\01_Fall2024\CS210\WK01
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+------         8/30/2024   3:47 PM            812 IntroPara.txt
+------         8/30/2024   3:48 PM           2685 Assignment01_linear_search.py
+------          9/4/2024   6:49 PM            666 Assignment01_linear_search_Rev2.py
+
+
+PS G:\My Drive\School\01_Fall2024\CS210\WK01> py .\Assignment01_linear_search_Rev2.py
+
+The value at index 0 is 2. The value at index 1 is 7.
+Added together, they are 9, which should be equal to the target, 9.
+
+PS G:\My Drive\School\01_Fall2024\CS210\WK01>

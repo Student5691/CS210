@@ -1,0 +1,22 @@
+PS G:\My Drive\School\01_Fall2024\CS210\WK02> ls
+
+
+    Directory: G:\My Drive\School\01_Fall2024\CS210\WK02
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+------          9/4/2024   4:57 PM           3097 Assignment02_binary_search.py
+------          9/4/2024   4:22 PM           1232 Assignment02_binary_search_OUTPUT.txt
+------          9/4/2024   4:57 PM         146902 Assignment02_binary_search.pdf
+
+
+PS G:\My Drive\School\01_Fall2024\CS210\WK02> py .\Assignment02_binary_search.py
+[1, 1023, 1045, 1051, 1058, 1065, 1071, 1100, 1112, 1114, 1122, 1163, 1166, 1176, 1178, 1189, 1197, 1214, 1225, 1247, 1248, 1255, 1256, 1271, 1277, 1282, 1295, 1303, 1304, 1307, 1310, 1318, 1327, 1328, 1329, 1356, 1374, 1377, 1392, 1394, 1412, 1428, 1432, 1437, 1448, 1478, 1483, 1487, 1498, 1499, 1503, 1528, 1532, 1534, 1535, 1537, 1553, 1555, 1556, 1566, 1577, 1584, 1593, 1596, 1619, 1620, 1632, 1638, 1649, 1652, 1658, 1664, 1678, 1693, 1699, 1704, 1745, 1760, 1765, 1766, 1787, 1795, 1802, 1815, 1822, 1846, 1874, 1883, 1900, 1909, 1924, 1952, 1957, 1959, 1960, 1962, 1966, 1968, 1970, 10000]
+
+Target value:            1959
+Size of array "a":       100
+
+Index 93, "a[guess]", holds 1959 which should be equal to the "target" value, 1959. It took 4 guesses to find the target.
+
+PS G:\My Drive\School\01_Fall2024\CS210\WK02>
