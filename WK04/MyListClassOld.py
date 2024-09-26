@@ -7,21 +7,13 @@ class MyList:
             self.array = args[0]
         else:
             self.array = []
-            while args != None:
-                self.array +=[args]
-            # for arg in args:
-            #     self.array += [arg]
+            for arg in args:
+                self.array += [arg]
         
     def my_len(self):
         length = 0
-        while True:
-            try:
-                i = self.array[length]
-                length += 1
-            except:
-                break
-        # for i in self.array:
-        #     length += 1
+        for i in self.array:
+            length += 1
         return length
 
     def my_append(self, val):
