@@ -1,6 +1,8 @@
 class MyList:
     '''
-    custom list class that handles input of a single list or a sequence of other data types.
+    Custom list class that handles input of a single list or a sequence of other data types.
+    Includes methods for appending and removing data, as well as a length member that maintains the list length as an integer.
+    Includes the __str__ method, returning the contents of the array member for use with Python's print() function.
     '''
     def __init__(self, *args):
         if  isinstance(args[0], list):
