@@ -57,7 +57,6 @@ class MyList:
         return f"[{', '.join(map(str, self.array))}]"
 
 arr = [1,3,5,6,8,9,12,13,None,15,17,18,24,True,36,47,58,3,98,'432',4,3,42,'fdsa']
-
 z = MyList(arr)
 
 print(f'{'Starting array, "arr":':<35} {arr}')
