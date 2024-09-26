@@ -28,6 +28,7 @@ class MyList:
                     break
                 except:
                     print('Error in __init__ method while assigning multiple args to the MyList object instance')
+                    break
         self.length = index
 
     def my_append(self, val):
