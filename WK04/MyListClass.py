@@ -79,5 +79,4 @@ apnd = 1111
 z.my_append(apnd)
 print(f'{'Appending ' + str(apnd) + ':':<35} {z}')
 
-
 print(f'{'Final list:':<35} {z}')
