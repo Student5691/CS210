@@ -1,0 +1,15 @@
+PS G:\My Drive\School\01_Fall2024\CS210\WK05> python .\linkedList.py
+2
+3
+5
+8
+14
+"8" found.
+"50" not found
+"14" removed.
+2
+3
+5
+8
+"50" not found; remove operation failed.
+PS G:\My Drive\School\01_Fall2024\CS210\WK05>

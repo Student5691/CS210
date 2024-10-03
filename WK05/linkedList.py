@@ -26,14 +26,16 @@ class MyLinkedList:
             print('LL[]')
             return
         node = self.head
-        print('LL[' + str(node.data), end=', ')
+        print('LL[' + str(node.data), end='')
+        if node.next is None:
+            print(']')
         while node.next is not None:
             node = node.next
             if node.next is None:
-                print(str(node.data), end='')
+                print(f', {str(node.data)}', end=']\n')
             else:
-                print(str(node.data), end=', ')
-        print(']')
+                print(f', {str(node.data)}', end='')
+
 
     def remove(self, _data):
         current, prev = self.head, None
@@ -45,8 +47,11 @@ class MyLinkedList:
             current, prev = current.next, current
 
 x = MyLinkedList(5)
+x.display()
 x.append(8)
+x.display()
 x.append(322)
+x.display()
 x.append(455)
 x.display()
 x.remove(455)
