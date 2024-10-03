@@ -1,0 +1,27 @@
+PS G:\My Drive\School\01_Fall2024\CS210\WK06> py .\doublyLinkedList.py
+Initial Doubly Linked List
+DLL[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Head: 0         Tail: 9         Len: 10
+
+Edge case: head - Remove 0
+DLL[1, 2, 3, 4, 5, 6, 7, 8, 9]
+Head: 1         Tail: 9         Len: 9
+
+Edge case: tail - Remove 9
+DLL[1, 2, 3, 4, 5, 6, 7, 8]
+Head: 1         Tail: 8         Len: 8
+
+Middle case - Remove 5
+DLL[1, 2, 3, 4, 6, 7, 8]
+Head: 1         Tail: 8         Len: 7
+
+Data-not-found case - Remove 20
+20 not found, remove operation failed.
+DLL[1, 2, 3, 4, 6, 7, 8]
+Head: 1         Tail: 8         Len: 7
+
+Append 21
+DLL[1, 2, 3, 4, 6, 7, 8, 21]
+Head: 1         Tail: 21        Len: 8
+
+PS G:\My Drive\School\01_Fall2024\CS210\WK06>

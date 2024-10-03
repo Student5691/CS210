@@ -4,7 +4,7 @@ class MyNode:
         self.next = None
         self.prev = None
 
-class MyLinkedList:
+class MyDoublyLinkedList:
     def __init__(self, _data):
         self.head = MyNode(_data)
         self.tail = self.head
@@ -51,7 +51,7 @@ class MyLinkedList:
         currentNode = self.forwardSearch(_data)
         if currentNode is None: # data searched for not found
             print(f'{_data} not found, remove operation failed.')
-            
+            return
         elif currentNode.next is None: # handles edge case: tail
             currentNode.prev.next = None
             self.tail = currentNode.prev
@@ -65,9 +65,10 @@ class MyLinkedList:
         else: # handles removal of any other position within the linked list
             currentNode.prev.next = currentNode.next
             currentNode.next.prev = currentNode.prev
+            del currentNode
         self.length -= 1
 
-x = MyLinkedList(0)
+x = MyDoublyLinkedList(0)
 
 for i in range(1, 10, 1):
     x.append(i)
@@ -90,7 +91,6 @@ x.remove(5)
 print('Middle case - Remove 5')
 x.dis()
 print(f'Head: {x.head.data} \tTail: {x.tail.data}  \tLen: {x.length}\n')
-
 
 print('Data-not-found case - Remove 20')
 x.remove(20)
