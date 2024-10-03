@@ -101,7 +101,3 @@ print('Append 21')
 x.append(21)
 x.dis()
 print(f'Head: {x.head.data} \tTail: {x.tail.data}  \tLen: {x.length}\n')
-
-
-
-# print(f'search for: {val}\tPrev is: {x.forwardSearch(val).prev}\tNext is: {x.forwardSearch(val).next}')
