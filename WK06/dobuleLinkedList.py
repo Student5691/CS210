@@ -26,10 +26,10 @@ class MyLinkedList:
 
     def dis(self): # display
         if self.head is None:
-            print('LL[]')
+            print('DLL[]')
             return
         node = self.head
-        print('LL[' + str(node.data), end='')
+        print('DLL[' + str(node.data), end='')
         if node.next is None:
             print(']')
         while node.next is not None:
@@ -72,24 +72,35 @@ x = MyLinkedList(0)
 for i in range(1, 10, 1):
     x.append(i)
 
+print('Initial Doubly Linked List')
 x.dis()
-print(f'Head: {x.head.data}\tTail: {x.tail.data}\tLen: {x.length}')
+print(f'Head: {x.head.data} \tTail: {x.tail.data}  \tLen: {x.length}\n')
 
 x.remove(0)
-print('remove 0')
+print('Edge case: head - Remove 0')
 x.dis()
-print(f'Head: {x.head.data}\tTail: {x.tail.data}\tLen: {x.length}')
+print(f'Head: {x.head.data} \tTail: {x.tail.data}  \tLen: {x.length}\n')
 
 x.remove(9)
-print('remove 9')
+print('Edge case: tail - Remove 9')
 x.dis()
-print(f'Head: {x.head.data}\tTail: {x.tail.data}\tLen: {x.length}')
+print(f'Head: {x.head.data} \tTail: {x.tail.data}  \tLen: {x.length}\n')
 
 x.remove(5)
-print('remove 5')
+print('Middle case - Remove 5')
 x.dis()
-print(f'Head: {x.head.data}\tTail: {x.tail.data}\tLen: {x.length}')
+print(f'Head: {x.head.data} \tTail: {x.tail.data}  \tLen: {x.length}\n')
 
+
+print('Data-not-found case - Remove 20')
+x.remove(20)
+x.dis()
+print(f'Head: {x.head.data} \tTail: {x.tail.data}  \tLen: {x.length}\n')
+
+print('Append 21')
+x.append(21)
+x.dis()
+print(f'Head: {x.head.data} \tTail: {x.tail.data}  \tLen: {x.length}\n')
 
 
 
